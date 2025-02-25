@@ -18,7 +18,7 @@ export default function Header() {
 
         <div className="d-flex position-relative d-md-none d-lg-block">
           <CiSearch className={`${styles.iconSearch} position-absolute`} />
-          <input type="search" placeholder="Search" />
+          <input className={styles.input} type="search" placeholder="Search" />
         </div>
 
         <nav>

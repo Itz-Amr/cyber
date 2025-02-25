@@ -16,7 +16,7 @@ export default function App() {
           <Route path="/login" element={<LoginPage />}></Route>
         </Routes>
 
-        {/* <Footer /> */}
+        <Footer />
       </BrowserRouter>
     </div>
   );

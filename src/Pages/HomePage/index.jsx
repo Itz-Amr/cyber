@@ -20,7 +20,7 @@ export default function HomePage() {
     <main className="d-flex flex-wrap container">
       {showCart ? <ModalCart /> : null}
 
-      <ProductsFilter className={`col-3 d-sm-none d-md-block`} />
+      <ProductsFilter className={`col-3 d-none d-md-block`} />
       <div className="col-lg-9 col-sm-12 ps-3">
         <h5 className="px-3">Available Products : {products.length}</h5>
         <div className="d-flex flex-wrap">

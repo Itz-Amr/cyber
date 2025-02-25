@@ -38,5 +38,9 @@
     line-height: 24px;
     letter-spacing: 0%;
     text-align: center;
+
+    @media screen and (max-width: 767px) {
+      padding: 0;
+    }
   }
 }
