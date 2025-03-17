@@ -5,7 +5,8 @@ import { IoCartOutline } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";
 import { IoMenu } from "react-icons/io5";
 import styles from "./index.module.css";
-import SideMenu from "../SideMenu";
+import { Link } from "react-router-dom";
+import SideMenu from "../../components/SideMenu";
 import { showModalCart, showSideMenu } from "../../store";
 
 export default function Header() {
@@ -25,9 +26,9 @@ export default function Header() {
           <a className={styles.uniq} href="/">
             Home
           </a>
-          <a href="/">About</a>
-          <a href="/">Contact Us</a>
-          <a href="/">Blog</a>
+          <Link href="/">About</Link>
+          <Link href="/">Contact Us</Link>
+          <Link href="/">Blog</Link>
         </nav>
 
         <div className={styles.icons}>

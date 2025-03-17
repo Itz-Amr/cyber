@@ -8,11 +8,11 @@ export default function ProductCard({
 }) {
   const { openModalCart } = showModalCart();
   return (
-    <div className="col-6 col-lg-4 p-2">
+    <div className="col-6 col-lg-4 col-md-4 p-4">
       <div className={`${styles.productCard} p-3`}>
         <img src={productImage} />
 
-        <p>{productName}</p>
+        <p className="text-center">{productName}</p>
 
         <span>${productPrice}</span>
 

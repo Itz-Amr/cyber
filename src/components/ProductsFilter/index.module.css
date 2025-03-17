@@ -1,4 +1,8 @@
 #productsFilter {
+  .acc {
+    position: sticky;
+    top: 0;
+  }
   #accordionButton {
     border: 0;
     border-radius: 0;

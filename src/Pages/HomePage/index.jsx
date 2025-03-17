@@ -17,10 +17,10 @@ export default function HomePage() {
   const { showCart } = showModalCart();
 
   return (
-    <main className="d-flex flex-wrap container">
+    <main className="d-flex flex-wrap p-3 position-relative">
       {showCart ? <ModalCart /> : null}
 
-      <ProductsFilter className={`col-3 d-none d-md-block`} />
+      <ProductsFilter className={`col-lg-3 pb-3 col-md-12 d-none d-md-block`} />
       <div className="col-lg-9 col-sm-12 ps-3">
         <h5 className="px-3">Available Products : {products.length}</h5>
         <div className="d-flex flex-wrap">

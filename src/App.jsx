@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import HomePage from "./Pages/HomePage";
 import LoginPage from "./Pages/LoginPage";
+import Footer from "./Pages/Footer";
+import Header from "./Pages/Header";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
 
         <Routes>
           <Route path="*" element={<h1>404</h1>}></Route>
-          <Route path="/home" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/login" element={<LoginPage />}></Route>
         </Routes>
 

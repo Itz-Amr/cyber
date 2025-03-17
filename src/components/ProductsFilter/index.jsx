@@ -17,7 +17,7 @@ export default function ProductsFilter({ className }) {
 
   return (
     <div className={className} id={styles.productsFilter}>
-      <div className="accordion" id="accordionExample">
+      <div className={`accordion ${styles.acc}`} id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header">
             <button
